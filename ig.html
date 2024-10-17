@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Instagram Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <h1>Photo Gallery</h1>
+        <div class="grid">
+            <img src="dua.jpg" alt="Photo 1" class="gallery-item">
+            <img src="photo2.jpg" alt="Photo 2" class="gallery-item">
+            <img src="photo3.jpg" alt="Photo 3" class="gallery-item">
+            <img src="photo4.jpg" alt="Photo 4" class="gallery-item">
+            <img src="photo5.jpg" alt="Photo 5" class="gallery-item">
+            <img src="photo6.jpg" alt="Photo 6" class="gallery-item">
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <span class="close" id="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
